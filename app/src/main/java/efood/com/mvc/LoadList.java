@@ -35,7 +35,6 @@ public class LoadList extends BaseActivity implements ListListiener {
 
     @Override
     public void PeopleList(List<People> list) {
-        Log.e("SASASASA",list.size()+"");
         list_item.setAdapter(new PeopleAdapter(list));
     }
 }
